@@ -11,7 +11,6 @@
 		868F40E9241A68F100E0E1D0 /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F40E8241A68F100E0E1D0 /* CoursesController.swift */; };
 		868F40EE241A6C9C00E0E1D0 /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F40ED241A6C9C00E0E1D0 /* CourseViewModel.swift */; };
 		86ACE69F241993FE00A10428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACE69E241993FE00A10428 /* AppDelegate.swift */; };
-		86ACE6A1241993FE00A10428 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACE6A0241993FE00A10428 /* SceneDelegate.swift */; };
 		86ACE6A3241993FE00A10428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACE6A2241993FE00A10428 /* ViewController.swift */; };
 		86ACE6A6241993FE00A10428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86ACE6A4241993FE00A10428 /* Main.storyboard */; };
 		86ACE6A8241993FF00A10428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ACE6A7241993FF00A10428 /* Assets.xcassets */; };
@@ -26,7 +25,6 @@
 		868F40ED241A6C9C00E0E1D0 /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
 		86ACE69B241993FD00A10428 /* mvc_to_MVVM_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvc_to_MVVM_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ACE69E241993FE00A10428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86ACE6A0241993FE00A10428 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		86ACE6A2241993FE00A10428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86ACE6A5241993FE00A10428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86ACE6A7241993FF00A10428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 				868F40E4241A645800E0E1D0 /* Controller */,
 				868F40E5241A647C00E0E1D0 /* Service */,
 				86ACE69E241993FE00A10428 /* AppDelegate.swift */,
-				86ACE6A0241993FE00A10428 /* SceneDelegate.swift */,
 				86ACE6A2241993FE00A10428 /* ViewController.swift */,
 				86ACE6A4241993FE00A10428 /* Main.storyboard */,
 				86ACE6A7241993FF00A10428 /* Assets.xcassets */,
@@ -199,7 +196,6 @@
 				86ACE6B92419955400A10428 /* CourseCell.swift in Sources */,
 				86ACE69F241993FE00A10428 /* AppDelegate.swift in Sources */,
 				868F40EE241A6C9C00E0E1D0 /* CourseViewModel.swift in Sources */,
-				86ACE6A1241993FE00A10428 /* SceneDelegate.swift in Sources */,
 				86ACE6B32419945200A10428 /* Course.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,11 +11,8 @@ import UIKit
 /*
  This ViewModel is responsible for rendering out each of the views inside the cells
  */
-
 struct CourseViewModel
 {
-    
-    
     let name: String
     let detailTextString: String
     let accessoryType: UITableViewCell.AccessoryType

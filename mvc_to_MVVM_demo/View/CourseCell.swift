@@ -8,7 +8,8 @@
 
 import UIKit
 
-class CourseCell: UITableViewCell {
+class CourseCell: UITableViewCell
+{
     
     var courseViewModel: CourseViewModel! {
         didSet {
@@ -20,7 +21,7 @@ class CourseCell: UITableViewCell {
     
     override func setHighlighted(_ highlighted: Bool, animated: Bool) {
         super.setHighlighted(highlighted, animated: animated)
-        contentView.backgroundColor = isHighlighted ? .highLightColor : .white
+        contentView.backgroundColor = isHighlighted ? .highlightColor : .white
         textLabel?.textColor = isHighlighted ? UIColor.white : .mainTextBlue
         detailTextLabel?.textColor = isHighlighted ? .white : .black
     }
